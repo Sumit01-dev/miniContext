@@ -6,7 +6,7 @@ const UserContextProvider = ({ children }) => {
 
   return (
     <UserContext.Provider value={{ user, setUser }}>
-      {children}   {/* ✅ Render the actual children passed */}
+      {children}
     </UserContext.Provider>
   );
 };
